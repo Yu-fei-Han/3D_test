@@ -1,5 +1,6 @@
 # PRIS-CV 三维重建方向 测试
 
+> **请将实现过程整理为 Markdown 文档，并将实现代码及所有结果一并发送至邮箱：<a href="mailto:hanyufei@bupt.edu.cn">hanyufei@bupt.edu.cn</a>。**
 ## 法向量渲染测试题
 #### 题目要求：
 在Blender中渲染一个球体的世界空间法向量图和相机空间法向量图。具体要求如下：
@@ -52,6 +53,8 @@
 4. 为了将其转换为相机坐标系下的法向量伪彩图，我们需要通过相机位姿来计算该视角的旋转矩阵，之后将'test_world.png'转换为'test_camera.png'。
 #### 步骤5： 坐标系的转换
 1. 请根据test.py中conver_world_camera该函数的提示，将代码补全，并运行代码，查看结果是否与'example_camera.png'一致。
+
+
 
 ### 参考学习网址
 1. http://www.yindaheng98.top/%E5%9B%BE%E5%BD%A2%E5%AD%A6/%E7%9B%B8%E6%9C%BA%E5%8F%82%E6%95%B0%E4%B8%8E%E5%9D%90%E6%A0%87%E7%B3%BB%E5%8F%98%E6%8D%A2.html#%E6%9B%B4%E5%A4%9A%E9%98%85%E8%AF%BB%E6%9D%90%E6%96%99%EF%BC%9A
